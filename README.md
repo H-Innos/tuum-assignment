@@ -1,9 +1,12 @@
 ## Running the project
-Navigate to the root directory an run 
+Navigate to the root directory and run 
 ```bash
 docker-compose up
 ```
-The endpoint will be available at http://localhost:8080
+The application will be running at http://localhost:8080.
+
+RabbitMQ console is accessible at http://localhost:15672
+with username: 'myuser' and password: 'secret'.
 
 ## Endpoints
 ### GET /accounts/{accountId}
